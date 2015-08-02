@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>ReactJS Example : Without JSX</title>
+    <script src="../node_modules/react/dist/react.js"></script>
+</head>
+<body>
+<div id="container"></div>
+<script>
+    var Hello = React.createClass({displayName: 'Hello',
+        render: function() {
+            return React.createElement("div", null, "Hello ", this.props.name);
+        }
+    });
+    React.render(
+       React.createElement(Hello, {name: "World"}),
+       document.getElementById('container')
+    );
+</script>
+</body>
+</html>

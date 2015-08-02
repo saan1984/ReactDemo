@@ -1,0 +1,10 @@
+{
+  "name": "ReactDemo",
+  "version": "0.0.1",
+  "description": "ReactJS Sessions",
+  "author": "Sandeep Kumar Patel",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}
